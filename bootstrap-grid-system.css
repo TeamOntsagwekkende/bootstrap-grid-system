@@ -78,6 +78,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 105px;
     border-radius: 50%;
     border: 8px solid white;
+    margin: 0 auto;
 }
 
 #red {
