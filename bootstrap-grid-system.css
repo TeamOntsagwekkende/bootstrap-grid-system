@@ -16,6 +16,7 @@ body p, li {
 
 #selected {
     font-size: 14px;
+    margin-top:100px;
 }
 
 .container .header {
@@ -149,12 +150,12 @@ hr {
 .img-thumbnail {
     background-color: #E6E6E6;
     border: 15px solid #E6E6E6;
+    /*width:80%;*/
 }
 
 .margin-imgs {
     margin-top: 40px;
 }
-
 
 /*XS SCREEN - screen smaller than 768*/
 @media screen and (max-width:768px) {
