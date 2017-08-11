@@ -14,6 +14,10 @@ body p, li {
     font-family: 'Abel', sans-serif;
 }
 
+#selected {
+    font-size: 14px;
+}
+
 .container .header {
     padding: 0px;
     width: 100%;
@@ -78,7 +82,11 @@ h1, h2, h3, h4, h5, h6 {
     height: 105px;
     border-radius: 50%;
     border: 8px solid white;
-    margin: 0 auto;
+    margin: 10px auto;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    line-height: 90px;
+    vertical-align: middle;
 }
 
 #red {
@@ -97,8 +105,44 @@ background-color: #7CB06C;
 background-color: #00ABA9;
 }
 
-@media screen and (max-width: 768) {
-    #red, #green {
+hr {
+    border-top: 3px solid rgba(158, 158, 158, 0.19);
+}
 
+/*XS SCREEN - screen smaller than 768*/
+@media screen and (max-width:768px) {
+    #red, #green {
+        float: right;
+    }
+    #orange, #blue {
+        float: left;
+    }
+
+    hr {
+        display: none;
     }
 }
+
+/*SM SCREEN - screen bigger than 767 */
+@media screen and (min-width:768px) {
+    hr {
+        width: 55%;
+    }
+}
+
+/*MED SCREEN - screen bigger than 991*/
+@media screen and (min-width:992px) {
+    hr {
+        width: 92%;
+    }
+}
+
+/*LARGE & XTRA LARGE - screen bigger than 1199*/
+@media screen and (min-width:1200px) {
+    hr {
+        width:65%;
+    }
+
+}
+
+
