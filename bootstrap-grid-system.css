@@ -203,6 +203,11 @@ hr {
     .first-img {
         margin-left: 0;
     }
+
+    .media-float {
+        float: left;
+    }
+
 }
 
 /*LARGE & XTRA LARGE - screen bigger than 1199*/
