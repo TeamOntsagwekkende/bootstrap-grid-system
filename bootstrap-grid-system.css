@@ -82,6 +82,10 @@ a {
     color: black;
 }
 
+.img-left {
+    float:right;
+}
+
 /*match each link to a different icon color*/
 a:hover {
     text-decoration: none;
@@ -98,6 +102,14 @@ a:hover {
     color: white;
     line-height: 90px;
     vertical-align: middle;
+}
+
+.mini-icon {
+    width: 18px;
+    height: 18px;
+    border-radius:50%;
+    display:inline-block;
+    font-weight:bold;
 }
 
 #red {
