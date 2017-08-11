@@ -33,13 +33,17 @@ body p, li {
     border-radius: 50%;
     width: 105px;
     position: relative;
-    bottom: 15px;
+    bottom: 18px;
 }
 
 .row {
     width: 100%;
     padding: 0;
     margin: 0;
+}
+
+li.mini-icon, .featuredproj {
+    margin-top: 10px;
 }
 
 .column {
@@ -104,27 +108,37 @@ a:hover {
     vertical-align: middle;
 }
 
+.mini-icon-container {
+    float: right;
+}
+
 .mini-icon {
     width: 18px;
     height: 18px;
     border-radius:50%;
     display:inline-block;
-    font-weight:bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 10px;
+    line-height: 18px;
+    vertical-align: middle;
+    float: left;
+    margin-right: 5px;
 }
 
-#red {
+
+.red {
 background-color: #E6563B;
 }
 
-#orange {
+.orange {
 background-color: #F19B00;
 }
 
-#green {
+.green {
 background-color: #7CB06C;
 }
 
-#blue {
+.blue {
 background-color: #00ABA9;
 }
 
@@ -137,13 +151,17 @@ hr {
     border: 15px solid #E6E6E6;
 }
 
+.margin-imgs {
+    margin-top: 40px;
+}
+
 
 /*XS SCREEN - screen smaller than 768*/
 @media screen and (max-width:768px) {
-    #red, #green {
+    .icon-red, .icon-green {
         float: right;
     }
-    #orange, #blue {
+    .icon-orange, .icon-blue {
         float: left;
     }
 
