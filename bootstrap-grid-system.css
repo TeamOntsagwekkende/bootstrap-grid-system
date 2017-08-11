@@ -75,6 +75,17 @@ h1, h2, h3, h4, h5, h6 {
     list-style-type: none;
     display: inline;
     padding:5px;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+/*match each link to a different icon color*/
+a:hover {
+    text-decoration: none;
+    color: #00ABA9;
 }
 
 .icon {
@@ -90,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #red {
-    background-color: #E6563B;
+background-color: #E6563B;
 }
 
 #orange {
@@ -109,14 +120,11 @@ hr {
     border-top: 3px solid rgba(158, 158, 158, 0.19);
 }
 
-.selected-images {
-    border: 5px solid #D2D3D0;
-    border-radius:10%;
+.img-thumbnail {
+    background-color: #E6E6E6;
+    border: 15px solid #E6E6E6;
 }
 
-.actual-img {
-    width:100%;
-}
 
 /*XS SCREEN - screen smaller than 768*/
 @media screen and (max-width:768px) {
@@ -137,6 +145,12 @@ hr {
     hr {
         width: 55%;
     }
+
+
+    .first-img {
+        margin-left: 0;
+    }
+
 }
 
 /*MED SCREEN - screen bigger than 991*/
@@ -144,12 +158,22 @@ hr {
     hr {
         width: 92%;
     }
+
+
+    .first-img {
+        margin-left: 0;
+    }
 }
 
 /*LARGE & XTRA LARGE - screen bigger than 1199*/
 @media screen and (min-width:1200px) {
     hr {
         width:65%;
+    }
+
+
+    .first-img {
+        margin-left: 0;
     }
 
 }
