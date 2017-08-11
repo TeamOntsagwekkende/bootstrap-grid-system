@@ -150,11 +150,21 @@ hr {
 .img-thumbnail {
     background-color: #E6E6E6;
     border: 15px solid #E6E6E6;
-    /*width:80%;*/
 }
 
 .margin-imgs {
     margin-top: 40px;
+}
+
+.media-object {
+    height: 80px;
+    width: 80px;
+}
+
+.media-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color:black;
 }
 
 /*XS SCREEN - screen smaller than 768*/
@@ -181,7 +191,6 @@ hr {
     .first-img {
         margin-left: 0;
     }
-
 }
 
 /*MED SCREEN - screen bigger than 991*/
@@ -206,7 +215,6 @@ hr {
     .first-img {
         margin-left: 0;
     }
-
 }
 
 
