@@ -179,6 +179,10 @@ hr {
     hr {
         display: none;
     }
+
+    #selected {
+        text-align: center;
+    }
 }
 
 /*SM SCREEN - screen bigger than 767 */
@@ -190,6 +194,10 @@ hr {
 
     .first-img {
         margin-left: 0;
+    }
+
+    #selected {
+        text-align: center;
     }
 }
 
@@ -208,6 +216,18 @@ hr {
         float: left;
     }
 
+    #selected {
+        text-align: left;
+    }
+
+    p#last {
+        position: relative;
+        top: 95px;
+        right: 8px;
+    }
+    /*#last {*/
+        /*text-align: right;*/
+    /*}*/
 }
 
 /*LARGE & XTRA LARGE - screen bigger than 1199*/
@@ -216,10 +236,28 @@ hr {
         width:65%;
     }
 
-
     .first-img {
         margin-left: 0;
     }
+
+    #selected {
+        text-align: left;
+        margin-left:10px;
+    }
+
+    p#last {
+        position: relative;
+        top: 95px;
+        right: 8px;
+    }
+
+    /*#last {*/
+        /*line-height: */
+    /*}*/
+
+    /*#last {*/
+        /*text-align: right;*/
+    /*}*/
 }
 
 
