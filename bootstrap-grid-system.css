@@ -109,6 +109,15 @@ hr {
     border-top: 3px solid rgba(158, 158, 158, 0.19);
 }
 
+.selected-images {
+    border: 5px solid #D2D3D0;
+    border-radius:10%;
+}
+
+.actual-img {
+    width:100%;
+}
+
 /*XS SCREEN - screen smaller than 768*/
 @media screen and (max-width:768px) {
     #red, #green {
